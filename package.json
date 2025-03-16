@@ -12,11 +12,18 @@
     "@splinetool/react-spline": "^4.0.0",
     "next": "15.2.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "vercel": "^41.4.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.2.1"
-  }
+  },
+  "homepage": "https://XnUnknown.github.io/Xnu",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+  
 }
